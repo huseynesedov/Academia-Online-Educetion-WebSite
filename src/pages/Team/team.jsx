@@ -1,4 +1,4 @@
-import React,{ useEffect, useState } from 'react';
+import React,  { UseEffect, UseState } from 'react';
 import axios from 'axios';
 
 import { FaTwitter, FaGooglePlusG, FaInstagram, FaFacebook, FaChevronRight } from "react-icons/fa";
@@ -6,25 +6,21 @@ import { FaTwitter, FaGooglePlusG, FaInstagram, FaFacebook, FaChevronRight } fro
 import AOS from 'aos';
 import { Helmet } from 'react-helmet';
 
-
 import Navbar from '../../Components/nav/nav';
 import Footer from '../../Components/footer/footer';
 
 function team() {
-    const [todos, setTodos] = useState({});
+    const [todos, setTodos] = UseState({});
 
-
-    useEffect(() => {
+    UseEffect(() => {
         const fetchTodos = async () => {
             try {
                 const response = await axios.get(`https://academia-api.vercel.app/team`);
                 setTodos(response.data)
             } catch (err) {
             }
-
         };
         fetchTodos();
-
     }, []);
 
     return (

@@ -20,10 +20,10 @@ function Navbar() {
                 <div class="container">
                     <div class="row">
                         <div class="col-md col-xl-5 d-flex align-items-center">
-                            <a class="navbar-brand align-items-center" href="index.html">
+                            <Link class="navbar-brand align-items-center" to='/' >
                                 Academia
                                 <span>Online Education &amp; Learning</span>
-                            </a>
+                            </Link>
                         </div>
                         <div class="col-md d-flex align-items-center">
                             <div class="con d-flex">
