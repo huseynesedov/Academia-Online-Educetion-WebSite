@@ -1,0 +1,342 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "ROGER SCOTT",
+            "job": "MARKETING MANAGER",
+            "src": "https://preview.colorlib.com/theme/academia/images/person_3.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 2,
+            "name": "TOM HARDY",
+            "job": "FRONT-END DEWELOPER",
+            "src": "https://preview.colorlib.com/theme/academia/images/person_2.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 2,
+            "name": "ALBERT CAMUS",
+            "job": "BACK-END DEWELOPER",
+            "src": "https://preview.colorlib.com/theme/academia/images/person_1.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        }
+    ],
+    "Jobs": [
+        {
+            "id": 1,
+            "name": "By John Smith",
+            "job": "Enhancing Adobe Photoshop CC 2020 Skills",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★",
+            "num": "(5.0)",
+            "online": "50 lectures (190 hrs)"
+        },
+        {
+            "id": 2,
+            "name": "By John Smith",
+            "job": "HTML, CSS, and Javascript for Web Developers",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★",
+            "num": "(3.0)",
+            "online": "50 lectures (190 hrs)"
+        },
+        {
+            "id": 3,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },
+        {
+            "id": 4,
+            "name": "By John Smith",
+            "job": "Basic Fundamentals for Software Engineering",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★",
+            "num": "(4.0)",
+            "online": "50 lectures (190 hrs)"
+        }
+    ],
+    "home-blog": [
+        {
+            "id": 1,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 01, 2022",
+            "comment": "1 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_1.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 2,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 17, 2023",
+            "comment": "10 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_2.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 3,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 27, 2020",
+            "comment": "3 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_3.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        }
+    ],
+    "price": [
+        {
+            "id": 1,
+            "degree": "BASIC PLAN",
+            "price": "49K",
+            "title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+        {
+            "id": 2,
+            "degree": "BEGINNER PLAN",
+            "price": "79K",
+            "title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+        {
+            "id": 3,
+            "degree": "PREMIUM PLAN",
+            "price": "109K",
+            "title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        },
+        {
+            "id": 4,
+            "degree": "ULTIMATE PLAN",
+            "price": "149K",
+            "title": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        }
+    ],
+    "all_course": [
+        {
+            "id": 1,
+            "name": "By John Smith",
+            "job": "Enhancing Adobe Photoshop CC 2020 Skills",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★",
+            "num": "(5.0)",
+            "online": "50 lectures (190 hrs)"
+        },
+        {
+            "id": 2,
+            "name": "By John Smith",
+            "job": "HTML, CSS, and Javascript for Web Developers",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★",
+            "num": "(3.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 3,
+            "name": "By John Smith",
+            "job": "Basic Fundamentals for Software Engineering",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★",
+            "num": "(4.0)",
+            "online": "50 lectures (190 hrs)"
+        },
+        {
+            "id": 4,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 5,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 6,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 7,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 8,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 9,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 10,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        },{
+            "id": 11,
+            "name": "By John Smith",
+            "job": "Introducing to Programming with WordPress",
+            "src": "https://preview.colorlib.com/theme/academia/images/author-1.jpg.webp",
+            "price-all": "$100",
+            "price-mounth": "$15",
+            "star": "★★★★★★",
+            "num": "(6.0)",
+            "online": "50 lectures (190 hrs)"
+        }
+        
+    ],
+    "team":[
+        {
+            "id": 1,
+            "name": "Ph.D Adrian Molises",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-1.jpg.webp"
+        },{
+            "id": 2,
+            "name": "Ph.D Arthur MaGregor",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-2.jpg.webp"
+        },{
+            "id": 3,
+            "name": "Ph.D Anna Hanzen",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-3.jpg.webp"
+        },{
+            "id": 4,
+            "name": "Ph.D Brian Wooden",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-4.jpg.webp"
+        }, 
+        {
+            "id": 5,
+            "name": "Ph.D Adrian Molises",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-1.jpg.webp"
+        },{
+            "id": 6,
+            "name": "Ph.D Arthur MaGregor",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-2.jpg.webp"
+        },{
+            "id": 7,
+            "name": "Ph.D Anna Hanzen",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-3.jpg.webp"
+        },{
+            "id": 8,
+            "name": "Ph.D Brian Wooden",
+            "title":"DEVELOPER AND LEAD INSTRUCTOR",
+            "src": "https://preview.colorlib.com/theme/academia/images/team-4.jpg.webp"
+        }
+    ],
+    "blog": [
+        {
+            "id": 1,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 01, 2022",
+            "comment": "1 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_1.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 2,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 17, 2023",
+            "comment": "10 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_2.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 3,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 27, 2020",
+            "comment": "3 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_3.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 4,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 15, 2023",
+            "comment": "2 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_4.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 5,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 10, 2021",
+            "comment": "10 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_5.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        },
+        {
+            "id": 6,
+            "name": "Build your Dream Software & Engineering Career",
+            "degree": "ADMIN",
+            "date": "JAN. 05, 2022",
+            "comment": "2 COMMENTS ",
+            "src": "https://preview.colorlib.com/theme/academia/images/image_6.jpg.webp",
+            "content": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. "
+        }
+    ]
+}

@@ -1,5 +1,4 @@
-import React,  { UseEffect, UseState } from 'react';
-import axios from 'axios';
+
 
 import { FaTwitter, FaGooglePlusG, FaInstagram, FaFacebook, FaChevronRight } from "react-icons/fa";
 
@@ -9,23 +8,29 @@ import { Helmet } from 'react-helmet';
 import Navbar from '../../Components/nav/nav';
 import Footer from '../../Components/footer/footer';
 
-function team() {
-    const [todos, setTodos] = UseState({});
+import axios from 'axios';
+import Api from '../../Api/api.json';
+import { useState, useEffect } from 'react';
 
-    UseEffect(() => {
+function Team() {
+    const [todos, setTodos] = useState([]);
+
+    useEffect(() => {
         const fetchTodos = async () => {
             try {
-                const response = await axios.get(`https://academia-api.vercel.app/team`);
-                setTodos(response.data)
+                const response = await axios.get(Api);
+                setTodos(response.data);
             } catch (err) {
+                console.error('Error fetching todos:', err);
             }
         };
+
         fetchTodos();
     }, []);
 
     return (
         <>
-        <Helmet>
+            <Helmet>
                 <meta charSet="utf-8" />
                 <title>Acadenmia-Team</title>
             </Helmet>
@@ -56,61 +61,57 @@ function team() {
             <section className="ftco-section">
                 <div className="container">
                     <div className="row">
-
-                        {todos.length > 0 ?
-
-                            todos.map((todo) => (
-
-                                <div
-                                    className="col-md-6 col-lg-3"
-                                    data-aos="fade-up"
-                                    data-aos-duration={1000}
-                                    data-aos-delay={100}
-                                >
-                                    <div className="staff">
-                                        <div
-                                            className="img im"
-                                            style={{ backgroundImage: `url(${todo.src})` }}
-                                        >
-                                            <ul className="ftco-social">
-                                                <li>
-                                                    <a href="#">
-                                                        <span className="fa fa-twitter" >
-                                                            <FaTwitter />
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span className="fa fa-facebook" >
-                                                            <FaFacebook />
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span className="fa fa-instagram" >
-                                                            <FaInstagram />
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span className="fa fa-google-plus" >
-                                                            <FaGooglePlusG />
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="text">
-                                            <h3>{todo.name}</h3>
-                                            <span className="position">{todo.title}</span>
-                                        </div>
+                        {todos.map((todo) => (
+                            <div
+                                className="col-md-6 col-lg-3"
+                                data-aos="fade-up"
+                                data-aos-duration={1000}
+                                data-aos-delay={100}
+                                key={todo.id}  // Don't forget to add a unique key for each mapped item
+                            >
+                                <div className="staff">
+                                    <div
+                                        className="img im"
+                                        style={{ backgroundImage: `url(${todo.src})` }}
+                                    >
+                                        <ul className="ftco-social">
+                                            <li>
+                                                <a href="#">
+                                                    <span className="fa">
+                                                        <FaTwitter />
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span className="fa">
+                                                        <FaFacebook />
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span className="fa">
+                                                        <FaInstagram />
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span className="fa">
+                                                        <FaGooglePlusG />
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="text">
+                                        <h3>{todo.name}</h3>
+                                        <span className="position">{todo.title}</span>
                                     </div>
                                 </div>
-                            )) : null
-                        }
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -120,4 +121,4 @@ function team() {
 }
 AOS.init();
 
-export default team;
+export default Team;
